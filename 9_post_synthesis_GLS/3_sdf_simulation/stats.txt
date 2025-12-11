@@ -1,0 +1,197 @@
+<SDF annotation statistics>
+
+Instance fullname= tb.DUT.pending_request_reg -- lib="tsl18fs120_scl" cell="decrq1" view="v"
+
+    List of Unannotated Timing Checks: 
+
+	($hold (CP (edge= posedge) (cond= (ENN==0))  , (CDN (edge= posedge) (cond= (ENN==0))))
+	($hold (CP (edge= posedge) (cond= (vcond1==1))  , (D (edge= posedge) (cond= (vcond1==1))))
+	($hold (CP (edge= posedge) (cond= (vcond1==1))  , (D (edge= negedge) (cond= (vcond1==1))))
+	($hold (CP (edge= posedge) (cond= (CDN==1))  , (ENN (edge= posedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) (cond= (CDN==1))  , (ENN (edge= negedge) (cond= (CDN==1))))
+	($recovery (CDN (edge= posedge) (cond= (ENN==0))  , (CP (edge= posedge) (cond= (ENN==0))))
+	($setup (D (edge= posedge) (cond= (vcond1==1))  , (CP (edge= posedge) (cond= (vcond1==1))))
+	($setup (D (edge= negedge) (cond= (vcond1==1))  , (CP (edge= posedge) (cond= (vcond1==1))))
+	($setup (ENN (edge= posedge) (cond= (CDN==1))  , (CP (edge= posedge) (cond= (CDN==1))))
+	($setup (ENN (edge= negedge) (cond= (CDN==1))  , (CP (edge= posedge) (cond= (CDN==1))))
+
+Instance fullname= tb.DUT.granted_reg -- lib="tsl18fs120_scl" cell="decrq1" view="v"
+
+    List of Unannotated Timing Checks: 
+
+	($hold (CP (edge= posedge) (cond= (ENN==0))  , (CDN (edge= posedge) (cond= (ENN==0))))
+	($hold (CP (edge= posedge) (cond= (vcond1==1))  , (D (edge= posedge) (cond= (vcond1==1))))
+	($hold (CP (edge= posedge) (cond= (vcond1==1))  , (D (edge= negedge) (cond= (vcond1==1))))
+	($hold (CP (edge= posedge) (cond= (CDN==1))  , (ENN (edge= posedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) (cond= (CDN==1))  , (ENN (edge= negedge) (cond= (CDN==1))))
+	($recovery (CDN (edge= posedge) (cond= (ENN==0))  , (CP (edge= posedge) (cond= (ENN==0))))
+	($setup (D (edge= posedge) (cond= (vcond1==1))  , (CP (edge= posedge) (cond= (vcond1==1))))
+	($setup (D (edge= negedge) (cond= (vcond1==1))  , (CP (edge= posedge) (cond= (vcond1==1))))
+	($setup (ENN (edge= posedge) (cond= (CDN==1))  , (CP (edge= posedge) (cond= (CDN==1))))
+	($setup (ENN (edge= negedge) (cond= (CDN==1))  , (CP (edge= posedge) (cond= (CDN==1))))
+
+Instance fullname= tb.DUT.U_PED_ack_toggle_out_reg -- lib="tsl18fs120_scl" cell="dfcrq1" view="v"
+
+    List of Unannotated Timing Checks: 
+
+	($setup (D (edge= posedge) (cond= (CDN==1))  , (CP (edge= posedge) (cond= (CDN==1))))
+	($setup (D (edge= negedge) (cond= (CDN==1))  , (CP (edge= posedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) (cond= (CDN==1))  , (D (edge= posedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) (cond= (CDN==1))  , (D (edge= negedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) , (CDN (edge= posedge)))
+	($recovery (CDN (edge= posedge) , (CP (edge= posedge)))
+
+Instance fullname= tb.DUT.U_PED_walk_reg -- lib="tsl18fs120_scl" cell="dfcrq1" view="v"
+
+    List of Unannotated Timing Checks: 
+
+	($setup (D (edge= posedge) (cond= (CDN==1))  , (CP (edge= posedge) (cond= (CDN==1))))
+	($setup (D (edge= negedge) (cond= (CDN==1))  , (CP (edge= posedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) (cond= (CDN==1))  , (D (edge= posedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) (cond= (CDN==1))  , (D (edge= negedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) , (CDN (edge= posedge)))
+	($recovery (CDN (edge= posedge) , (CP (edge= posedge)))
+
+Instance fullname= tb.DUT.grant_toggle_main_reg -- lib="tsl18fs120_scl" cell="dfcrq1" view="v"
+
+    List of Unannotated Timing Checks: 
+
+	($setup (D (edge= posedge) (cond= (CDN==1))  , (CP (edge= posedge) (cond= (CDN==1))))
+	($setup (D (edge= negedge) (cond= (CDN==1))  , (CP (edge= posedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) (cond= (CDN==1))  , (D (edge= posedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) (cond= (CDN==1))  , (D (edge= negedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) , (CDN (edge= posedge)))
+	($recovery (CDN (edge= posedge) , (CP (edge= posedge)))
+
+Instance fullname= tb.DUT.U_PED_req_toggle_out_reg -- lib="tsl18fs120_scl" cell="dfcrq1" view="v"
+
+    List of Unannotated Timing Checks: 
+
+	($setup (D (edge= posedge) (cond= (CDN==1))  , (CP (edge= posedge) (cond= (CDN==1))))
+	($setup (D (edge= negedge) (cond= (CDN==1))  , (CP (edge= posedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) (cond= (CDN==1))  , (D (edge= posedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) (cond= (CDN==1))  , (D (edge= negedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) , (CDN (edge= posedge)))
+	($recovery (CDN (edge= posedge) , (CP (edge= posedge)))
+
+Instance fullname= tb.DUT.prev_ack_main_reg -- lib="tsl18fs120_scl" cell="dfcrn1" view="v"
+
+    List of Unannotated Timing Checks: 
+
+	($setup (D (edge= posedge) (cond= (CDN==1))  , (CP (edge= posedge) (cond= (CDN==1))))
+	($setup (D (edge= negedge) (cond= (CDN==1))  , (CP (edge= posedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) (cond= (CDN==1))  , (D (edge= posedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) (cond= (CDN==1))  , (D (edge= negedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) , (CDN (edge= posedge)))
+	($recovery (CDN (edge= posedge) , (CP (edge= posedge)))
+
+Instance fullname= tb.DUT.prev_req_main_reg -- lib="tsl18fs120_scl" cell="dfcrq1" view="v"
+
+    List of Unannotated Timing Checks: 
+
+	($setup (D (edge= posedge) (cond= (CDN==1))  , (CP (edge= posedge) (cond= (CDN==1))))
+	($setup (D (edge= negedge) (cond= (CDN==1))  , (CP (edge= posedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) (cond= (CDN==1))  , (D (edge= posedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) (cond= (CDN==1))  , (D (edge= negedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) , (CDN (edge= posedge)))
+	($recovery (CDN (edge= posedge) , (CP (edge= posedge)))
+
+Instance fullname= tb.DUT.\U_TRAFFIC_traffic_light_reg[1]  -- lib="tsl18fs120_scl" cell="dfcrq1" view="v"
+
+    List of Unannotated Timing Checks: 
+
+	($setup (D (edge= posedge) (cond= (CDN==1))  , (CP (edge= posedge) (cond= (CDN==1))))
+	($setup (D (edge= negedge) (cond= (CDN==1))  , (CP (edge= posedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) (cond= (CDN==1))  , (D (edge= posedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) (cond= (CDN==1))  , (D (edge= negedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) , (CDN (edge= posedge)))
+	($recovery (CDN (edge= posedge) , (CP (edge= posedge)))
+
+Instance fullname= tb.DUT.U_sync_grant_to_ped_sync_out_reg -- lib="tsl18fs120_scl" cell="dfcrn1" view="v"
+
+    List of Unannotated Timing Checks: 
+
+	($setup (D (edge= posedge) (cond= (CDN==1))  , (CP (edge= posedge) (cond= (CDN==1))))
+	($setup (D (edge= negedge) (cond= (CDN==1))  , (CP (edge= posedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) (cond= (CDN==1))  , (D (edge= posedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) (cond= (CDN==1))  , (D (edge= negedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) , (CDN (edge= posedge)))
+	($recovery (CDN (edge= posedge) , (CP (edge= posedge)))
+
+Instance fullname= tb.DUT.U_sync_req_to_main_sync1_reg -- lib="tsl18fs120_scl" cell="dfcrq1" view="v"
+
+    List of Unannotated Timing Checks: 
+
+	($setup (D (edge= posedge) (cond= (CDN==1))  , (CP (edge= posedge) (cond= (CDN==1))))
+	($setup (D (edge= negedge) (cond= (CDN==1))  , (CP (edge= posedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) (cond= (CDN==1))  , (D (edge= posedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) (cond= (CDN==1))  , (D (edge= negedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) , (CDN (edge= posedge)))
+	($recovery (CDN (edge= posedge) , (CP (edge= posedge)))
+
+Instance fullname= tb.DUT.U_PED_btn_ff_reg -- lib="tsl18fs120_scl" cell="dfcrn1" view="v"
+
+    List of Unannotated Timing Checks: 
+
+	($setup (D (edge= posedge) (cond= (CDN==1))  , (CP (edge= posedge) (cond= (CDN==1))))
+	($setup (D (edge= negedge) (cond= (CDN==1))  , (CP (edge= posedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) (cond= (CDN==1))  , (D (edge= posedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) (cond= (CDN==1))  , (D (edge= negedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) , (CDN (edge= posedge)))
+	($recovery (CDN (edge= posedge) , (CP (edge= posedge)))
+
+Instance fullname= tb.DUT.U_sync_ack_to_main_sync1_reg -- lib="tsl18fs120_scl" cell="dfcrq1" view="v"
+
+    List of Unannotated Timing Checks: 
+
+	($setup (D (edge= posedge) (cond= (CDN==1))  , (CP (edge= posedge) (cond= (CDN==1))))
+	($setup (D (edge= negedge) (cond= (CDN==1))  , (CP (edge= posedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) (cond= (CDN==1))  , (D (edge= posedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) (cond= (CDN==1))  , (D (edge= negedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) , (CDN (edge= posedge)))
+	($recovery (CDN (edge= posedge) , (CP (edge= posedge)))
+
+Instance fullname= tb.DUT.U_sync_grant_to_ped_sync1_reg -- lib="tsl18fs120_scl" cell="dfcrq1" view="v"
+
+    List of Unannotated Timing Checks: 
+
+	($setup (D (edge= posedge) (cond= (CDN==1))  , (CP (edge= posedge) (cond= (CDN==1))))
+	($setup (D (edge= negedge) (cond= (CDN==1))  , (CP (edge= posedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) (cond= (CDN==1))  , (D (edge= posedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) (cond= (CDN==1))  , (D (edge= negedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) , (CDN (edge= posedge)))
+	($recovery (CDN (edge= posedge) , (CP (edge= posedge)))
+
+Instance fullname= tb.DUT.U_sync_req_to_main_sync_out_reg -- lib="tsl18fs120_scl" cell="dfcrb1" view="v"
+
+    List of Unannotated Timing Checks: 
+
+	($setup (D (edge= posedge) (cond= (CDN==1))  , (CP (edge= posedge) (cond= (CDN==1))))
+	($setup (D (edge= negedge) (cond= (CDN==1))  , (CP (edge= posedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) (cond= (CDN==1))  , (D (edge= posedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) (cond= (CDN==1))  , (D (edge= negedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) , (CDN (edge= posedge)))
+	($recovery (CDN (edge= posedge) , (CP (edge= posedge)))
+
+Instance fullname= tb.DUT.U_sync_ack_to_main_sync_out_reg -- lib="tsl18fs120_scl" cell="dfcrb1" view="v"
+
+    List of Unannotated Timing Checks: 
+
+	($setup (D (edge= posedge) (cond= (CDN==1))  , (CP (edge= posedge) (cond= (CDN==1))))
+	($setup (D (edge= negedge) (cond= (CDN==1))  , (CP (edge= posedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) (cond= (CDN==1))  , (D (edge= posedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) (cond= (CDN==1))  , (D (edge= negedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) , (CDN (edge= posedge)))
+	($recovery (CDN (edge= posedge) , (CP (edge= posedge)))
+
+Instance fullname= tb.DUT.\U_TRAFFIC_traffic_light_reg[0]  -- lib="tsl18fs120_scl" cell="dfcrb1" view="v"
+
+    List of Unannotated Timing Checks: 
+
+	($setup (D (edge= posedge) (cond= (CDN==1))  , (CP (edge= posedge) (cond= (CDN==1))))
+	($setup (D (edge= negedge) (cond= (CDN==1))  , (CP (edge= posedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) (cond= (CDN==1))  , (D (edge= posedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) (cond= (CDN==1))  , (D (edge= negedge) (cond= (CDN==1))))
+	($hold (CP (edge= posedge) , (CDN (edge= posedge)))
+	($recovery (CDN (edge= posedge) , (CP (edge= posedge)))
+

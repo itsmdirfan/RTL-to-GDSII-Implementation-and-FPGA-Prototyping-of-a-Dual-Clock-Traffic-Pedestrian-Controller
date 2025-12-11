@@ -1,0 +1,181 @@
+{
+ "filetype": "conformal-table",
+ "data": [
+  {
+   "Object": "/pending_request_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/pending_request_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/granted_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/granted_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/U_PED_ack_toggle_out_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/U_PED/ack_toggle_out_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/U_PED_walk_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/U_PED/walk_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/grant_toggle_main_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/grant_toggle_main_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/U_PED_req_toggle_out_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/U_PED/req_toggle_out_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/prev_ack_main_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/prev_ack_main_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/prev_req_main_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/prev_req_main_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/U_TRAFFIC_traffic_light_reg[1]/U$1",
+   "Type": "DFF",
+   "Mapping": "/U_TRAFFIC/traffic_light_reg[1]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/U_TRAFFIC_traffic_light_reg[0]/U$1",
+   "Type": "DFF",
+   "Mapping": "/U_TRAFFIC/traffic_light_reg[0]",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/U_sync_grant_to_ped_sync_out_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/U_sync_grant_to_ped/sync_out_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/U_sync_ack_to_main_sync_out_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/U_sync_ack_to_main/sync_out_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/U_sync_req_to_main_sync_out_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/U_sync_req_to_main/sync_out_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/U_sync_req_to_main_sync1_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/U_sync_req_to_main/sync1_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/U_PED_btn_ff_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/U_PED/btn_ff_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/U_sync_ack_to_main_sync1_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/U_sync_ack_to_main/sync1_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  },
+  {
+   "Object": "/U_sync_grant_to_ped_sync1_reg/U$1",
+   "Type": "DFF",
+   "Mapping": "/U_sync_grant_to_ped/sync1_reg",
+   "Phase": "+",
+   "User Setup object phase inversion": "+",
+   "User Setup mapped object phase inversion": "",
+   "highlite": 0
+  }
+ ],
+ "cols": [
+  {
+   "key": "Object"
+  },
+  {
+   "key": "Type"
+  },
+  {
+   "key": "Mapping"
+  },
+  {
+   "key": "Phase"
+  },
+  {
+   "key": "User Setup object phase inversion"
+  },
+  {
+   "key": "User Setup mapped object phase inversion"
+  }
+ ],
+ "sort": [
+  "-highlite"
+ ]
+}

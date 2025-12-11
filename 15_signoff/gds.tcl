@@ -1,0 +1,1 @@
+streamOut Top_FINAL.gds -mapFile /home/vlsi12/Downloads/scl_pdk/stdlib/fs120/tech_data/lef/gds2_fe_4l.map -libName DesignLib -merge {/home/vlsi12/Downloads/scl_pdk/stdlib/fs120/gds/tsl18fs120.gds /home/vlsi12/Downloads/scl_pdk/iolib/cio150/gds/tsl18cio150_4lm.gds} -uniquifyCellNames -units 1000 -mode ALL

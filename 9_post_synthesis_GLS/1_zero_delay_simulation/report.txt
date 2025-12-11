@@ -1,0 +1,83 @@
+TOOL:	xrun	22.09-s003: Started on Oct 08, 2025 at 16:33:48 IST
+TOOL:	xrun(64)	22.09-s003: Started on Oct 08, 2025 at 16:33:48 IST
+xrun(64): 22.09-s003: (c) Copyright 1995-2022 Cadence Design Systems, Inc.
+file: /home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top_netlist.v
+	module worklib.top:v
+		errors: 0, warnings: 0
+file: /home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/2_tb/tb.v
+	module worklib.tb:v
+		errors: 0, warnings: 0
+file: /home/vlsi12/Downloads/scl_pdk/stdlib/fs120/verilog/vcs_sim_model/tsl18fs120_scl.v
+	module tsl18fs120_scl.aoi211d1:v
+		errors: 0, warnings: 0
+	module tsl18fs120_scl.aoim22d1:v
+		errors: 0, warnings: 0
+	module tsl18fs120_scl.decrq1:v
+		errors: 0, warnings: 0
+	module tsl18fs120_scl.dfcrb1:v
+		errors: 0, warnings: 0
+	module tsl18fs120_scl.dfcrn1:v
+		errors: 0, warnings: 0
+	module tsl18fs120_scl.dfcrq1:v
+		errors: 0, warnings: 0
+	module tsl18fs120_scl.inv0d0:v
+		errors: 0, warnings: 0
+	primitive tsl18fs120_scl.U_FD_EN_P_RB_NO:v
+		errors: 0, warnings: 0
+	primitive tsl18fs120_scl.U_FD_P_RB_NO:v
+		errors: 0, warnings: 0
+	module tsl18fs120_scl.nd02d1:v
+		errors: 0, warnings: 0
+	module tsl18fs120_scl.nd04d1:v
+		errors: 0, warnings: 0
+	module tsl18fs120_scl.nr02d0:v
+		errors: 0, warnings: 0
+	module tsl18fs120_scl.nr02d1:v
+		errors: 0, warnings: 0
+	module tsl18fs120_scl.nr03d1:v
+		errors: 0, warnings: 0
+	module tsl18fs120_scl.oai21d1:v
+		errors: 0, warnings: 0
+	module tsl18fs120_scl.oaim22d1:v
+		errors: 0, warnings: 0
+		Caching library 'tsl18fs120_scl' ....... Done
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		tb
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.tb:v <0x111a3373>
+			streams:   8, words:  4905
+		tsl18fs120_scl.dfcrb1:v <0x7ec2449c>
+			streams:   0, words:     0
+		tsl18fs120_scl.dfcrn1:v <0x5efadb7b>
+			streams:   0, words:     0
+		tsl18fs120_scl.aoim22d1:v <0x7bd4de91>
+			streams:   0, words:     0
+		tsl18fs120_scl.oaim22d1:v <0x2fe55107>
+			streams:   0, words:     0
+		tsl18fs120_scl.dfcrq1:v <0x6d0a31ce>
+			streams:   0, words:     0
+		tsl18fs120_scl.decrq1:v <0x6962b4db>
+			streams:   0, words:     0
+	Building instance specific data structures.
+        0   (0x)    x         ?          :   0   :   0;  
+        |
+xmelab: *W,UDPRDT (/home/vlsi12/Downloads/scl_pdk/stdlib/fs120/verilog/vcs_sim_model/tsl18fs120_scl.v,21517|8): UDP table entry is redundant.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                35      16
+		UDPs:                   17       2
+		Primitives:             54       5
+		Registers:              22      11
+		Scalar wires:           53       -
+		Always blocks:           1       1
+		Initial blocks:          2       2
+		Cont. assignments:       0       4
+		Pseudo assignments:      5       5
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.tb:v
+xmsim: *W,NOMTDGUI: Multi-Threaded Dumping is disabled for interactive debug mode.
+

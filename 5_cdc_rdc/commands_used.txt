@@ -1,0 +1,3 @@
+config_rtlds -port button -clock clk_ped
+config_rtlds -port traffic_light -clock clk_main
+config_rtlds -port walk -clock clk_ped

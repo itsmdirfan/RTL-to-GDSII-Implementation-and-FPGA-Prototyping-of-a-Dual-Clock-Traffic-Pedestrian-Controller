@@ -1,0 +1,41 @@
+{
+ "filetype": "conformal-table",
+ "data": [
+  {
+   "Object": "/U_PED/prev_grant_reg",
+   "Type": "DFF",
+   "Design": "G",
+   "User Setup representative": "/U_PED_ack_toggle_out_reg",
+   "LEC representative": "/U_PED/ack_toggle_out_reg",
+   "User Setup phase": "+",
+   "LEC phase": "+",
+   "highlite": 0
+  }
+ ],
+ "cols": [
+  {
+   "key": "Object"
+  },
+  {
+   "key": "Type"
+  },
+  {
+   "key": "Design"
+  },
+  {
+   "key": "User Setup representative"
+  },
+  {
+   "key": "LEC representative"
+  },
+  {
+   "key": "User Setup phase"
+  },
+  {
+   "key": "LEC phase"
+  }
+ ],
+ "sort": [
+  "-highlite"
+ ]
+}

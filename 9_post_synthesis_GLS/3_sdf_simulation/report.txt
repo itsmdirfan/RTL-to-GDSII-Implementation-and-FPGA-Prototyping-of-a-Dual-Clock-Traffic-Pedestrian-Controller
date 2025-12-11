@@ -1,0 +1,168 @@
+TOOL:	xrun	22.09-s003: Started on Oct 08, 2025 at 16:56:22 IST
+TOOL:	xrun(64)	22.09-s003: Started on Oct 08, 2025 at 16:56:22 IST
+xrun(64): 22.09-s003: (c) Copyright 1995-2022 Cadence Design Systems, Inc.
+file: /home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top_netlist.v
+	module worklib.top:v
+		errors: 0, warnings: 0
+file: /home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/9_post_synthesis_GLS/3_sdf_simulation/tb.v
+	module worklib.tb:v
+		errors: 0, warnings: 0
+file: /home/vlsi12/Downloads/scl_pdk/stdlib/fs120/verilog/vcs_sim_model/tsl18fs120_scl.v
+	module tsl18fs120_scl.aoi211d1:v
+		errors: 0, warnings: 0
+	module tsl18fs120_scl.aoim22d1:v
+		errors: 0, warnings: 0
+	module tsl18fs120_scl.decrq1:v
+		errors: 0, warnings: 0
+	module tsl18fs120_scl.dfcrb1:v
+		errors: 0, warnings: 0
+	module tsl18fs120_scl.dfcrn1:v
+		errors: 0, warnings: 0
+	module tsl18fs120_scl.dfcrq1:v
+		errors: 0, warnings: 0
+	module tsl18fs120_scl.inv0d0:v
+		errors: 0, warnings: 0
+	primitive tsl18fs120_scl.U_FD_EN_P_RB_NO:v
+		errors: 0, warnings: 0
+	primitive tsl18fs120_scl.U_FD_P_RB_NO:v
+		errors: 0, warnings: 0
+	module tsl18fs120_scl.nd02d1:v
+		errors: 0, warnings: 0
+	module tsl18fs120_scl.nd04d1:v
+		errors: 0, warnings: 0
+	module tsl18fs120_scl.nr02d0:v
+		errors: 0, warnings: 0
+	module tsl18fs120_scl.nr02d1:v
+		errors: 0, warnings: 0
+	module tsl18fs120_scl.nr03d1:v
+		errors: 0, warnings: 0
+	module tsl18fs120_scl.oai21d1:v
+		errors: 0, warnings: 0
+	module tsl18fs120_scl.oaim22d1:v
+		errors: 0, warnings: 0
+		Caching library 'tsl18fs120_scl' ....... Done
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		tb
+	Reading SDF file from location "/home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf"
+	Writing compiled SDF file to "top.sdf.X".
+	Annotating SDF timing data:
+		Compiled SDF file:     top.sdf.X
+		Log file:              sdf.log
+		Backannotation scope:  tb.DUT
+		Configuration file:    
+		MTM control:           MAXIMUM
+		Scale factors:         
+		Scale type:            
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (RECREM (posedge CDN) (posedge CP) (-226) (274)) of instance tb.DUT.pending_request_reg of module decrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 243>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (negedge D) (posedge CP) (447) (-259)) of instance tb.DUT.pending_request_reg of module decrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 244>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (posedge D) (posedge CP) (320) (-231)) of instance tb.DUT.pending_request_reg of module decrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 245>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (negedge ENN) (posedge CP) (488) (-461)) of instance tb.DUT.pending_request_reg of module decrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 246>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (posedge ENN) (posedge CP) (412) (-395)) of instance tb.DUT.pending_request_reg of module decrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 247>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (RECREM (posedge CDN) (posedge CP) (-226) (274)) of instance tb.DUT.granted_reg of module decrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 267>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (negedge D) (posedge CP) (462) (-273)) of instance tb.DUT.granted_reg of module decrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 268>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (posedge D) (posedge CP) (336) (-247)) of instance tb.DUT.granted_reg of module decrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 269>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (negedge ENN) (posedge CP) (484) (-457)) of instance tb.DUT.granted_reg of module decrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 270>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (posedge ENN) (posedge CP) (383) (-366)) of instance tb.DUT.granted_reg of module decrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 271>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (RECREM (posedge CDN) (posedge CP) (-216) (259)) of instance tb.DUT.U_PED_ack_toggle_out_reg of module dfcrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 290>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (negedge D) (posedge CP) (166) (-53)) of instance tb.DUT.U_PED_ack_toggle_out_reg of module dfcrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 291>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (posedge D) (posedge CP) (164) (-100)) of instance tb.DUT.U_PED_ack_toggle_out_reg of module dfcrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 292>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (RECREM (posedge CDN) (posedge CP) (-216) (259)) of instance tb.DUT.U_PED_walk_reg of module dfcrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 311>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (negedge D) (posedge CP) (168) (-56)) of instance tb.DUT.U_PED_walk_reg of module dfcrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 312>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (posedge D) (posedge CP) (155) (-91)) of instance tb.DUT.U_PED_walk_reg of module dfcrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 313>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (RECREM (posedge CDN) (posedge CP) (-216) (259)) of instance tb.DUT.grant_toggle_main_reg of module dfcrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 332>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (negedge D) (posedge CP) (169) (-56)) of instance tb.DUT.grant_toggle_main_reg of module dfcrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 333>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (posedge D) (posedge CP) (165) (-100)) of instance tb.DUT.grant_toggle_main_reg of module dfcrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 334>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (RECREM (posedge CDN) (posedge CP) (-216) (259)) of instance tb.DUT.U_PED_req_toggle_out_reg of module dfcrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 353>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (negedge D) (posedge CP) (164) (-51)) of instance tb.DUT.U_PED_req_toggle_out_reg of module dfcrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 354>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (posedge D) (posedge CP) (164) (-100)) of instance tb.DUT.U_PED_req_toggle_out_reg of module dfcrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 355>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (RECREM (posedge CDN) (posedge CP) (-205) (254)) of instance tb.DUT.prev_ack_main_reg of module dfcrn1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 374>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (negedge D) (posedge CP) (168) (-51)) of instance tb.DUT.prev_ack_main_reg of module dfcrn1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 375>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (posedge D) (posedge CP) (125) (-77)) of instance tb.DUT.prev_ack_main_reg of module dfcrn1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 376>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (RECREM (posedge CDN) (posedge CP) (-216) (259)) of instance tb.DUT.prev_req_main_reg of module dfcrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 395>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (negedge D) (posedge CP) (158) (-46)) of instance tb.DUT.prev_req_main_reg of module dfcrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 396>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (posedge D) (posedge CP) (140) (-77)) of instance tb.DUT.prev_req_main_reg of module dfcrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 397>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (RECREM (posedge CDN) (posedge CP) (-216) (259)) of instance tb.DUT.\U_TRAFFIC_traffic_light_reg[1]  of module dfcrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 416>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (negedge D) (posedge CP) (173) (-60)) of instance tb.DUT.\U_TRAFFIC_traffic_light_reg[1]  of module dfcrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 417>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (posedge D) (posedge CP) (175) (-110)) of instance tb.DUT.\U_TRAFFIC_traffic_light_reg[1]  of module dfcrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 418>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (RECREM (posedge CDN) (posedge CP) (-205) (254)) of instance tb.DUT.U_sync_grant_to_ped_sync_out_reg of module dfcrn1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 437>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (negedge D) (posedge CP) (166) (-48)) of instance tb.DUT.U_sync_grant_to_ped_sync_out_reg of module dfcrn1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 438>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (posedge D) (posedge CP) (122) (-74)) of instance tb.DUT.U_sync_grant_to_ped_sync_out_reg of module dfcrn1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 439>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (RECREM (posedge CDN) (posedge CP) (-216) (259)) of instance tb.DUT.U_sync_req_to_main_sync1_reg of module dfcrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 458>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (negedge D) (posedge CP) (164) (-51)) of instance tb.DUT.U_sync_req_to_main_sync1_reg of module dfcrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 459>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (posedge D) (posedge CP) (149) (-86)) of instance tb.DUT.U_sync_req_to_main_sync1_reg of module dfcrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 460>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (RECREM (posedge CDN) (posedge CP) (-205) (254)) of instance tb.DUT.U_PED_btn_ff_reg of module dfcrn1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 479>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (negedge D) (posedge CP) (149) (-33)) of instance tb.DUT.U_PED_btn_ff_reg of module dfcrn1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 480>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (posedge D) (posedge CP) (108) (-61)) of instance tb.DUT.U_PED_btn_ff_reg of module dfcrn1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 481>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (RECREM (posedge CDN) (posedge CP) (-216) (259)) of instance tb.DUT.U_sync_ack_to_main_sync1_reg of module dfcrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 500>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (negedge D) (posedge CP) (175) (-62)) of instance tb.DUT.U_sync_ack_to_main_sync1_reg of module dfcrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 501>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (posedge D) (posedge CP) (162) (-98)) of instance tb.DUT.U_sync_ack_to_main_sync1_reg of module dfcrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 502>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (RECREM (posedge CDN) (posedge CP) (-216) (259)) of instance tb.DUT.U_sync_grant_to_ped_sync1_reg of module dfcrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 521>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (negedge D) (posedge CP) (165) (-52)) of instance tb.DUT.U_sync_grant_to_ped_sync1_reg of module dfcrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 522>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (posedge D) (posedge CP) (150) (-86)) of instance tb.DUT.U_sync_grant_to_ped_sync1_reg of module dfcrq1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 523>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (RECREM (posedge CDN) (posedge CP) (-199) (254)) of instance tb.DUT.U_sync_req_to_main_sync_out_reg of module dfcrb1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 544>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (negedge D) (posedge CP) (166) (-43)) of instance tb.DUT.U_sync_req_to_main_sync_out_reg of module dfcrb1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 545>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (posedge D) (posedge CP) (126) (-74)) of instance tb.DUT.U_sync_req_to_main_sync_out_reg of module dfcrb1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 546>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (RECREM (posedge CDN) (posedge CP) (-199) (254)) of instance tb.DUT.U_sync_ack_to_main_sync_out_reg of module dfcrb1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 567>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (negedge D) (posedge CP) (166) (-43)) of instance tb.DUT.U_sync_ack_to_main_sync_out_reg of module dfcrb1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 568>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (posedge D) (posedge CP) (126) (-74)) of instance tb.DUT.U_sync_ack_to_main_sync_out_reg of module dfcrb1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 569>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (RECREM (posedge CDN) (posedge CP) (-199) (254)) of instance tb.DUT.\U_TRAFFIC_traffic_light_reg[0]  of module dfcrb1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 590>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (negedge D) (posedge CP) (167) (-44)) of instance tb.DUT.\U_TRAFFIC_traffic_light_reg[0]  of module dfcrb1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 591>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (SETUPHOLD (posedge D) (posedge CP) (171) (-117)) of instance tb.DUT.\U_TRAFFIC_traffic_light_reg[0]  of module dfcrb1 </home/vlsi12/Desktop/EC1062/irfan_tra_ped_ctrl/7_synthesis/top.sdf, line 592>.
+	Annotation completed with 0 Errors and 55 Warnings
+	SDF statistics: 
+		 No. of Pathdelays = 84      	 No. of Disabled Pathdelays = 0        Annotated = 100.00% (84/84) 
+		 No. of Tchecks    = 161     	 No. of Disabled Tchecks    = 0        Annotated = 31.68% (51/161) 
+				        Total(T) 	   Disabled(D) 	    Annotated(A)	  Percentage(A/(T-D))
+		 Path Delays	            84	             0	                84	                100.00
+		      $setup	            38	             0	                 0	                  0.00
+		       $hold	            55	             0	                 0	                  0.00
+		      $width	            51	             0	                51	                100.00
+		   $recovery	            17	             0	                 0	                  0.00
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.tb:v <0x232485f4>
+			streams:   9, words:  5089
+		tsl18fs120_scl.dfcrb1:v <0x45308331>
+			streams:   0, words:     0
+		tsl18fs120_scl.dfcrb1:v <0x79d9d59b>
+			streams:   0, words:     0
+		tsl18fs120_scl.dfcrn1:v <0x5f6d4fc3>
+			streams:   0, words:     0
+		tsl18fs120_scl.aoim22d1:v <0x7565a163>
+			streams:   0, words:     0
+		tsl18fs120_scl.oaim22d1:v <0x1877a0f9>
+			streams:   0, words:     0
+		tsl18fs120_scl.dfcrq1:v <0x2614e9f3>
+			streams:   0, words:     0
+		tsl18fs120_scl.dfcrq1:v <0x31762f75>
+			streams:   0, words:     0
+		tsl18fs120_scl.decrq1:v <0x3238c218>
+			streams:   0, words:     0
+	Building instance specific data structures.
+        0   (0x)    x         ?          :   0   :   0;  
+        |
+xmelab: *W,UDPRDT (/home/vlsi12/Downloads/scl_pdk/stdlib/fs120/verilog/vcs_sim_model/tsl18fs120_scl.v,21517|8): UDP table entry is redundant.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                35      16
+		UDPs:                   17       2
+		Primitives:             54       5
+		Timing outputs:         36      12
+		Registers:              22      11
+		Scalar wires:           89       -
+		Always blocks:           1       1
+		Initial blocks:          3       3
+		Cont. assignments:       0       4
+		Pseudo assignments:      5       5
+		Timing checks:         161      25
+		Interconnect:           97       -
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.tb:v
+xmsim: *W,NOMTDGUI: Multi-Threaded Dumping is disabled for interactive debug mode.
+
+-------------------------------------
+Relinquished control to SimVision...
+

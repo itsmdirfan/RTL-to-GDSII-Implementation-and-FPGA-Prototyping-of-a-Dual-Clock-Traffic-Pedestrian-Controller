@@ -1,0 +1,15 @@
+Clock    : clk_main
+Source   : clk_main (port)
+Total FF : 11
+Max Level: 2
+(L1) port clk_main
+ \_ ... (11 sinks omitted)
+
+----------------------------------------------------
+Clock    : clk_ped
+Source   : clk_ped (port)
+Total FF : 6
+Max Level: 2
+(L1) port clk_ped
+ \_ ... (6 sinks omitted)
+
