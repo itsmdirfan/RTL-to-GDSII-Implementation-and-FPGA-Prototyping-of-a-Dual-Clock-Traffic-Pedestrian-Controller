@@ -63,7 +63,9 @@
       <img height="150" alt="Screenshot from 2025-10-07 16-41-37" src="https://github.com/user-attachments/assets/606ce04c-2af9-435d-b7b7-080aa2825127" />
       <b> <li>Lint: JasperGold</li> </b> <br>
       <img height="150" alt="violation_list_fixed" src="https://github.com/user-attachments/assets/ef0a1ded-cc46-4ffb-ab2c-a2c78d21d638" />
+      <img width="349" height="101" alt="after_fixing violations" src="https://github.com/user-attachments/assets/78c7733e-fa01-487d-9114-b7d0bf7c5713" />
       <b> <li>CDC/RDC: JasperGold</li> </b> <br>
+      <img width="234" height="85" alt="no_violations" src="https://github.com/user-attachments/assets/2ca806a3-efa5-4061-9912-a3a981b1869d" />
       <b> <li>Xprop : JasperGold</li> </b> <br>
       <img height="131" alt="op" src="https://github.com/user-attachments/assets/f41899d5-fadf-452f-9e4d-2329f9388534" />
       <b> <li>Synthesis: Genus</li> </b> <br>
